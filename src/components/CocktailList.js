@@ -10,7 +10,7 @@ const CocktailList = () => {
 
 	if(loading) return <Loading />
 
-	if(cocktails.length == 0) return <h2 className="section-title">Sorry, no cocktails matched your criteria.</h2>
+	if(cocktails.length === 0) return <h2 className="section-title">Sorry, no cocktails matched your criteria.</h2>
 
 	return (
 		<section className="section">
