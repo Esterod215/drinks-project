@@ -18,10 +18,11 @@ const CocktailList = () => {
 			<h2 className="section-title">
 				Cocktails
 			</h2>
-
-			{cocktails.map((cocktail) => {
-				return <Cocktail key={cocktail.idDrink} cocktail={cocktail}/>
-			})}
+			<div className="cocktails-center">
+				{cocktails.map((cocktail) => {
+					return <Cocktail key={cocktail.idDrink} cocktail={cocktail}/>
+				})}
+			</div>
 		</section>
 	)
 }

@@ -126,6 +126,9 @@ Buttons
   background: var(--primaryLightColor);
   border-color: var(--primaryLightColor);
 }
+.home-detail-btn {
+	margin-top: 2rem
+}
 /* 
 ====== 
 Navbar
