@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Cocktail = ({cocktail}) => {
-	console.log('props', cocktail )
   return (
     <article className="cocktail">
 			<div className="img-container">

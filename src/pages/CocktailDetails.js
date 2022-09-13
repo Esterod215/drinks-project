@@ -40,7 +40,7 @@ const CocktailDetails = () => {
 
 	if(loading) return <Loading />
 	if(details == null) return <h2 className="section-title">No Cocktail To Display</h2>
-	console.log('ingredients',ingredients)
+
 	return (
 		<section className="section cocktail-section">
 			<h2 className="section-title">{details.strDrink}</h2>
