@@ -45,7 +45,7 @@ const CocktailDetails = () => {
 		<section className="section cocktail-section">
 			<h2 className="section-title">{details.strDrink}</h2>
 			<div className="drink">
-				<img src={details.strDrinkThumb} />
+				<img src={details.strDrinkThumb} alt={details.strDrink}/>
 				<div className="drink-info">
 					<p>
 						<span className="drink-data">name: </span>
