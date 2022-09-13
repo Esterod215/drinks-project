@@ -24,10 +24,10 @@ const SearchForm = () => {
 				<div className="form-control">
 					<label htmlFor="name">Search Cocktails</label>
 					<input
-					id="name"
-					type="text"
-					ref={searchValue}
-					onChange={searchCocktail}
+						id="name"
+						type="text"
+						ref={searchValue}
+						onChange={searchCocktail}
 					/>
 				</div>
 			</form>
